@@ -1,0 +1,43 @@
+body{
+  margin: 60px;
+}
+.container{
+  max-width: 430px;
+  margin: auto;
+  border: 10px solid #6441a4;
+}
+.header{
+  color: #6441a4;
+  text-align: center;
+  padding: 20px;
+}
+.content-container{
+  max-width: 390px;
+  margin: auto;
+}
+.panel{
+  padding: 10px;
+}
+.panel div{
+  float: left;
+  padding-right: 15px;
+  color: #555;
+}
+.panel p{
+  margin-top: 95px;
+  color: #555;
+}
+.panel a{
+  text-decoration: none;
+}
+.img-wrapper{
+  width: 80px;
+}
+img{
+  max-width: 100%;
+}
+@media only screen and (max-width: 500px) {
+    body {
+        margin: 15px;
+    }
+}
