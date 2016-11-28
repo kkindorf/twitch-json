@@ -1,5 +1,5 @@
 body{
-  margin: 60px;
+  margin-top: 30px;
 }
 .container{
   max-width: 430px;
@@ -11,6 +11,27 @@ body{
   text-align: center;
   padding: 20px;
 }
+.intro{
+  margin-top: 40px;
+}
+.button-container{
+  margin: auto;
+}
+button{
+  background: #6441a4;
+  border: 0;
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  color: white;
+  padding: 10px;
+}
+#offline, #online, #fcc{
+  display: inline-block;
+}
+#online, #fcc{
+  margin-right: 20px;
+}
 .content-container{
   max-width: 390px;
   margin: auto;
@@ -20,7 +41,7 @@ body{
 }
 .panel div{
   float: left;
-  padding-right: 15px;
+  padding-right: 5px;
   color: #555;
 }
 .panel p{
@@ -29,6 +50,7 @@ body{
 }
 .panel a{
   text-decoration: none;
+  color: #555;
 }
 .img-wrapper{
   width: 80px;
@@ -36,8 +58,14 @@ body{
 img{
   max-width: 100%;
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
     body {
-        margin: 15px;
+        margin-top: 15px;
+    }
+    #online, #fcc{
+      margin-right: 5px;
+    }
+    button{
+      padding: 5px;
     }
 }
