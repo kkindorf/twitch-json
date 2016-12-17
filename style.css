@@ -1,10 +1,10 @@
 body{
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .container{
   max-width: 430px;
   margin: auto;
-  border: 10px solid #6441a4;
+  border: 5px solid #6441a4;
 }
 .header{
   color: #6441a4;
@@ -59,9 +59,10 @@ img{
   max-width: 100%;
 }
 @media only screen and (max-width: 400px) {
-    body {
-        margin-top: 15px;
-    }
+  .content-container{
+    width: 95%;
+    margin: auto;
+  }
     #online, #fcc{
       margin-right: 5px;
     }
