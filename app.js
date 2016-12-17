@@ -32,7 +32,6 @@ $(function() {
                     user = data.stream.channel.display_name;
                     //if user is online push that data into online array
                     online.push(user);
-                    console.log(online);
                     var name = data.stream.channel.display_name;
                     var logo = data.stream.channel.logo;
                     var url = data.stream.channel.url;
