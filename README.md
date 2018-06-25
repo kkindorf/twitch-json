@@ -1,6 +1,7 @@
 # twitch-json
 A small app that connects to Twitch's API to check a set list of users to let you know if they're currently streaming or not.
 
+![Twitch JSON app](twitch.png)
 
 So the point of this project wasn't really about getting used to Twitch's API. It was mostly just about getting used to working with the JSON data that gets returned from an ajax response and how to pull pieces of information out of the JSON object. Basically, there are three main functions in this project. The online button makes an ajax request to Twitch's api that checks to see whether or not any of the users in my follows array is currently online or not. If they are online, then return the information back about those people to the screen. And the same goes for the Freecodecamp button and the offline button.
 
